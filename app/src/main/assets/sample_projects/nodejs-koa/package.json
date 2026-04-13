@@ -1,12 +1,17 @@
 {
   "name": "notes-app",
   "version": "1.0.0",
-  "description": "Markdown 笔记应用 - 零依赖，使用 Node.js 内置 http 模块",
+  "description": "Markdown \u7b14\u8bb0\u5e94\u7528 - \u96f6\u4f9d\u8d56\uff0c\u4f7f\u7528 Node.js \u5185\u7f6e http \u6a21\u5757",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node init && node server.js"
   },
   "dependencies": {},
-  "keywords": ["notes", "markdown", "nodejs", "zero-dependency"],
+  "keywords": [
+    "notes",
+    "markdown",
+    "nodejs",
+    "zero-dependency"
+  ],
   "author": "WebToApp"
 }

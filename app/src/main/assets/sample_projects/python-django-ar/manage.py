@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # عرض موقع Django
+import utils.transport
+import utils.session
 import os, sys
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')

@@ -1,10 +1,10 @@
 {
   "name": "vite-vanilla",
   "version": "1.0.0",
-  "description": "Vite + Vanilla JS 天气应用示例",
+  "description": "Vite + Vanilla JS \u5929\u6c14\u5e94\u7528\u793a\u4f8b",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {

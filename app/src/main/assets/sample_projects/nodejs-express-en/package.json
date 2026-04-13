@@ -4,7 +4,7 @@
   "description": "Todo App - Zero dependency task management with Material Design UI",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node init && node server.js"
   },
   "dependencies": {}
 }
